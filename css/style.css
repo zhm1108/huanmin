@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.wrapper {
+  width: 1080px;
+  height: 1920px;
+  background: url(../img/bg.png);
+  background-size: cover;
+  margin: 0 auto; }
+  .wrapper .top {
+    font-size: 40px;
+    color: #fff; }
+    .wrapper .top p {
+      position: absolute;
+      top: 64px;
+      left: 50%;
+      transform: translate(-50%); }
+    .wrapper .top span {
+      font-size: 50px; }
+      .wrapper .top span:nth-of-type(1) {
+        color: #03a9f4; }
+      .wrapper .top span:nth-of-type(2) {
+        color: #0bad0b; }
+
+.main {
+  width: 100%;
+  position: relative; }
+  .main .one {
+    position: absolute;
+    top: 315px;
+    left: 34px;
+    width: 210px;
+    height: 210px;
+    overflow: hidden;
+    border-radius: 50%; }
+    .main .one img {
+      width: 100%;
+      height: 100%; }
+  .main .two {
+    position: absolute;
+    top: 187px;
+    left: 289px;
+    width: 225px;
+    height: 225px;
+    overflow: hidden;
+    border-radius: 50%; }
+    .main .two img {
+      width: 100%;
+      height: 100%; }
+  .main .three {
+    position: absolute;
+    top: 551px;
+    left: 91px;
+    width: 267px;
+    height: 267px;
+    overflow: hidden;
+    border-radius: 50%; }
+    .main .three img {
+      width: 100%;
+      height: 100%; }
+  .main .text {
+    position: absolute;
+    top: 320px;
+    right: 70px;
+    width: 480px;
+    text-align: right;
+    color: #fff;
+    font-size: 20px; }
+    .main .text h4 {
+      font-size: 50px;
+      line-height: 65px; }
+    .main .text small {
+      font-size: 25px;
+      line-height: 45px; }
+    .main .text p {
+      line-height: 30px;
+      text-indent: 2rem;
+      text-align: left; }
+  .main .first {
+    position: absolute;
+    right: 150px;
+    top: 920px;
+    width: 100%; }
+    .main .first dt {
+      float: right;
+      top: 4px;
+      right: 3px; }
+      .main .first dt img {
+        width: 100%;
+        height: auto;
+        border-radius: 110px; }
+    .main .first dd {
+      float: right;
+      color: #fff; }
+      .main .first dd span:nth-of-type(1) {
+        font-size: 45px;
+        position: absolute;
+        top: 45px;
+        left: 530px;
+        font-weight: bold; }
+      .main .first dd span:nth-of-type(2) i {
+        font-style: normal;
+        color: #fff;
+        font-size: 22px; }
+        .main .first dd span:nth-of-type(2) i:nth-of-type(1) {
+          position: absolute;
+          top: 143px;
+          left: 480px; }
+        .main .first dd span:nth-of-type(2) i:nth-of-type(2) {
+          position: absolute;
+          top: 143px;
+          left: 600px; }
+  .main .second {
+    position: absolute;
+    right: -100px;
+    top: 1268px;
+    width: 100%; }
+    .main .second dt {
+      float: left;
+      top: 4px;
+      left: 3px; }
+      .main .second dt img {
+        width: 100%;
+        height: auto;
+        border-radius: 110px; }
+    .main .second dd {
+      float: left;
+      color: #fff; }
+      .main .second dd span:nth-of-type(1) {
+        font-size: 45px;
+        position: absolute;
+        top: 45px;
+        left: 440px;
+        font-weight: bold; }
+      .main .second dd span:nth-of-type(2) i {
+        font-size: 22px;
+        font-style: normal;
+        color: #fff; }
+        .main .second dd span:nth-of-type(2) i:nth-of-type(1) {
+          position: absolute;
+          top: 145px;
+          left: 400px; }
+        .main .second dd span:nth-of-type(2) i:nth-of-type(2) {
+          position: absolute;
+          top: 145px;
+          left: 535px; }
+  .main .third {
+    position: absolute;
+    right: 150px;
+    top: 1630px;
+    width: 100%; }
+    .main .third dt {
+      float: right;
+      top: 4px;
+      right: 3px; }
+      .main .third dt img {
+        width: 100%;
+        height: auto;
+        border-radius: 110px; }
+    .main .third dd {
+      float: right;
+      color: #fff; }
+      .main .third dd span:nth-of-type(1) {
+        font-size: 45px;
+        position: absolute;
+        top: 45px;
+        left: 530px;
+        font-weight: bold; }
+      .main .third dd span:nth-of-type(2) i {
+        font-size: 22px;
+        font-style: normal;
+        color: #fff; }
+        .main .third dd span:nth-of-type(2) i:nth-of-type(1) {
+          position: absolute;
+          top: 143px;
+          left: 480px; }
+        .main .third dd span:nth-of-type(2) i:nth-of-type(2) {
+          position: absolute;
+          top: 143px;
+          left: 600px; }
+
+/*# sourceMappingURL=style.css.map */
